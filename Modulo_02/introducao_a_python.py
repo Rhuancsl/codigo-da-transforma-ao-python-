@@ -1,0 +1,15 @@
+print("Bem-vindo usuario")
+print("para fazer o cadastro e necessario nome e senha")
+print("digite seu nome:")
+name = input()
+print("certo agora digite a senha:")
+print("digite sua senha:")
+senha = input()
+print(f"cadastro realizado ({name})")
+print(f"bem-vindo a plataforma usuario {name}")
+print("ola usuario")
+print("o horario atualmente é:")
+from datetime import datetime
+import datetime
+hora_atual = datetime.now().strftime("%H:%M:%S")
+print(hora_atual)
